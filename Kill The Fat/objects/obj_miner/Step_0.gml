@@ -1,5 +1,5 @@
 //movimentação horizontal e colisão horizontal
-move = -keyboard_check(ord("A")) +keyboard_check(ord("D"))
+move = -keyboard_check(ord("A")) +keyboard_check(ord("D")) -keyboard_check(vk_left) +keyboard_check(vk_right)
 hsp = spd * move
 
 if place_meeting(x + hsp, y, obj_ground)
@@ -22,8 +22,8 @@ if place_meeting(x, y + vsp, obj_ground)
 		y += sign(vsp)
 	}
 	vsp = 0
+	djmp = 2
 }
-
 
 y += vsp
 
@@ -32,9 +32,10 @@ if place_meeting(x, y + 1, obj_ground)
 	if keyboard_check_pressed(vk_space)
 	{
 		vsp = jmp
+		djmp--
 	}
 }
-else
+else 
 {
 	vsp += grav
 }
@@ -52,4 +53,3 @@ if life == 0
 {
 	game_restart()
 }
-
