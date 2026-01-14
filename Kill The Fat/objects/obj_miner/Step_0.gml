@@ -32,7 +32,19 @@ if place_meeting(x, y + 1, obj_ground)
 	if keyboard_check_pressed(vk_space)
 	{
 		vsp = jmp
-		djmp--
+	}
+}
+else 
+{
+	vsp += grav
+}
+
+if djmp > 0
+{
+	if keyboard_check_pressed(vk_space)
+	{
+		vsp = jmp
+		djmp --
 	}
 }
 else 
@@ -41,7 +53,6 @@ else
 }
 
 //morte
-
 
 if place_meeting(x, y, obj_enemy)
 {
