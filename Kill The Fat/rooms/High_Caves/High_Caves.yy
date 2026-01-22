@@ -8,11 +8,11 @@
   "instanceCreationOrder":[
     {"name":"inst_34C2DF38","path":"rooms/High_Caves/High_Caves.yy",},
     {"name":"inst_73C67A8F","path":"rooms/High_Caves/High_Caves.yy",},
-    {"name":"inst_12F1F049","path":"rooms/High_Caves/High_Caves.yy",},
-    {"name":"inst_4F8FB4C1","path":"rooms/High_Caves/High_Caves.yy",},
-    {"name":"inst_7AC8820F","path":"rooms/High_Caves/High_Caves.yy",},
-    {"name":"inst_5DD99C5C","path":"rooms/High_Caves/High_Caves.yy",},
     {"name":"inst_2641DA9","path":"rooms/High_Caves/High_Caves.yy",},
+    {"name":"inst_5DD99C5C","path":"rooms/High_Caves/High_Caves.yy",},
+    {"name":"inst_7AC8820F","path":"rooms/High_Caves/High_Caves.yy",},
+    {"name":"inst_4F8FB4C1","path":"rooms/High_Caves/High_Caves.yy",},
+    {"name":"inst_12F1F049","path":"rooms/High_Caves/High_Caves.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -52,7 +52,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":250,"hport":600,"hspeed":-100,"hview":300,"inherit":false,"objectId":{"name":"obj_miner","path":"objects/obj_miner/obj_miner.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":1000,"wview":500,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -64,7 +64,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,
